@@ -1,0 +1,16 @@
+.card {
+  margin: auto;
+  background-color: rgb(250, 225, 178);
+  height: 200px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.side {
+  height: 100%;
+  width: 100%;
+}
+
+.side-2 {
+  display: none;
+}
