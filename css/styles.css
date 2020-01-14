@@ -1,17 +1,53 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 .card {
   margin: auto;
-  background-color: rgb(250, 225, 178);
-  height: 200px;
-  width: 300px;
+  background-image: url(../img/index-card.jpg);
+  background-position: center;
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 600px;
   cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: 1px 1px 7px #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
+  background-color: rgba(230, 230, 230, 0.767);
+  background-blend-mode: overlay;
 }
 
 .side {
   height: 100%;
   width: 100%;
-  padding: 20px;
+  padding-top: 20%;
 }
 
+.side-1{
+  font-size: 40px;
+  text-decoration: underline;
+}
 .side-2 {
+  font-size: 25px;
+  padding-left: 8%;
+  padding-right: 8%;
   display: none;
+}
+
+.new-card {
+  margin: auto;
 }

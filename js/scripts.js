@@ -30,7 +30,7 @@ $(document).ready(function(){
   var newCard = function() {
     var card = cardData[random(cardData.length -1)];
     $('#term').text(card[0]);
-    $('#deffinition').text(card[1]);
+    $('#definition').text(card[1]);
     $('.side-1').show();
     $('.side-2').hide();
   }
