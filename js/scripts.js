@@ -16,8 +16,7 @@ $(document).ready(function(){
   ]
 
   $('.card').click(function(){
-    $('.side-1').slideToggle();
-    $('.side-2').slideToggle();
+    $('.side-2').fadeToggle();
   });
 
 

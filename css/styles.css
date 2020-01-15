@@ -29,18 +29,30 @@ body {
   text-shadow: 1px 1px 10px rgb(255, 255, 255);
   background-color: rgba(230, 230, 230, 0.767);
   background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .side {
   height: 100%;
   width: 100%;
-  padding-top: 20%;
 }
 
-.side-1{
+.side-1 {
   font-size: 40px;
   text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
 }
+
+#term {
+  margin-top: ;
+}
+
 .side-2 {
   font-size: 25px;
   padding-left: 8%;
@@ -50,4 +62,15 @@ body {
 
 .new-card {
   margin: auto;
+}
+
+button {
+  transition: all .3s;
+  box-shadow: 1px 1px 7px #333;
+}
+
+button:hover {
+  transform: scale(1.15);
+  box-shadow: 3px 3px 14px #333;
+  background-color: plum !important;
 }
